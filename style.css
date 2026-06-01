@@ -574,6 +574,24 @@ footer {
   }
 }
 
+/* ====================================
+   MOBILE HERO ADJUSTMENTS
+   Hide the large image grid on small screens and
+   use a single background image for a cleaner layout.
+==================================== */
+@media (max-width: 768px) {
+  .hero {
+    min-height: 60vh;
+    background-image: url('img/C4EB25A6144762A0076784701E1AB760.jpeg');
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-grid {
+    display: none;
+  }
+}
+
 /* =========================
    VIDEOS
 ========================== */
